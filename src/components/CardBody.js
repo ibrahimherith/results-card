@@ -4,7 +4,7 @@ import Button from "./Button";
 const CardBody = () => {
   return (
     <div className="card-body">
-      <strong style={{ color: "hsl(224, 30%, 27%)" }}>Summary</strong>
+      <strong style={{ color: "hsl(224, 30%, 27%)" }}> Summary </strong>
       <Subject
         imgSrc={"../images/icon-reaction.svg"}
         imgAlt={"reaction icon"}
