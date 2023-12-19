@@ -6,7 +6,7 @@ const CardBody = () => {
     <div className="card-body">
       <strong style={{ color: "hsl(224, 30%, 27%)" }}> Summary </strong>
       <Subject
-        imgSrc={"../images/icon-reaction.svg"}
+        imgSrc={"./images/icon-reaction.svg"}
         imgAlt={"reaction icon"}
         name={"Reaction"}
         score={80}
@@ -14,7 +14,7 @@ const CardBody = () => {
         bgColor={"hsl(0, 100%, 98%)"}
       />
       <Subject
-        imgSrc={"../images/icon-memory.svg"}
+        imgSrc={"./images/icon-memory.svg"}
         imgAlt={"memory icon"}
         name={"Memory"}
         score={92}
@@ -22,7 +22,7 @@ const CardBody = () => {
         bgColor={"hsl(39, 100%, 98%)"}
       />
       <Subject
-        imgSrc={"../images/icon-verbal.svg"}
+        imgSrc={"./images/icon-verbal.svg"}
         imgAlt={"verbal icon"}
         name={"Verbal"}
         score={61}
@@ -30,7 +30,7 @@ const CardBody = () => {
         bgColor={"hsl(166, 100%, 98%)"}
       />
       <Subject
-        imgSrc={"../images/icon-visual.svg"}
+        imgSrc={"./images/icon-visual.svg"}
         imgAlt={"visual icon"}
         name={"Visual"}
         score={72}
